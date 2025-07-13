@@ -11,6 +11,7 @@ return {
     config = function()
       vim.keymap.set("n", "<leader>e", "<C-w>l", { desc = "Focus Editor" })
       vim.keymap.set("n", "<leader>n", "<C-w>h", { desc = "Focus NeoTree" })
+      vim.keymap.set("n", "<leader>b", "<cmd>Neotree toggle<CR>", { desc = "Toggle NeoTree" })
     end
   }
 }
